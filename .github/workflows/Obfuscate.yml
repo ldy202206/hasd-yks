@@ -25,7 +25,7 @@ jobs:
           node-version: "latest"
 
       - name: Install dependencies
-        运行： |
+        run: |
           npm install -g javascript-obfuscator
 
       - name: Clone BPB workjs
